@@ -1,19 +1,31 @@
 <template>
   <div class="practices">
-    <init v-if="showComponents('init')"></init>
-    <test v-if="showComponents('test')"></test>
+    <Init v-if="showComponents('init')"></Init>
+    <StageRender v-if="showComponents('stagerender')"></StageRender>
+    <Texture v-if="showComponents('texture')"></Texture>
+    <Sprite v-if="showComponents('sprite')"></Sprite>
+    <Tileset v-if="showComponents('tileset')"></Tileset>
+    <Atlas v-if="showComponents('atlas')"></Atlas>
   </div>
 </template>
 
 <script>
 import Init from './01-init'
-import Test from './02-test'
+import StageRender from './02-stage-render'
+import Texture from './03-texture'
+import Sprite from './04-sprite'
+import Tileset from './05-tileset-image'
+import Atlas from './06-tileset-atlas.vue'
 
 export default {
   name: 'GetStart',
   components: {
     Init,
-    Test
+    StageRender,
+    Texture,
+    Sprite,
+    Tileset,
+    Atlas
   },
   methods: {
     showComponents (component) {

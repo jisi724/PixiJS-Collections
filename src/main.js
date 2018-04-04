@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import * as PIXI from 'pixi.js'
+Object.defineProperty(Vue.prototype, '$PIXI', { value: PIXI })
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
