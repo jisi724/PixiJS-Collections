@@ -30,7 +30,8 @@ export default {
         {title: 'Texture', url: '01-get-start/texture'},
         {title: 'Sprite', url: '01-get-start/sprite'},
         {title: 'Tileset Image', url: '01-get-start/tileset'},
-        {title: 'Tileset Atlas', url: '01-get-start/atlas'}
+        {title: 'Tileset Atlas', url: '01-get-start/atlas'},
+        {title: 'Movement', url: '01-get-start/movement'}
       ],
       section2Links: [
         {title: 'Init2', url: 'init'},

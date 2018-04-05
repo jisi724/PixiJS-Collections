@@ -6,6 +6,7 @@
     <Sprite v-if="showComponents('sprite')"></Sprite>
     <Tileset v-if="showComponents('tileset')"></Tileset>
     <Atlas v-if="showComponents('atlas')"></Atlas>
+    <movement v-if="showComponents('movement')"></movement>
   </div>
 </template>
 
@@ -15,7 +16,8 @@ import StageRender from './02-stage-render'
 import Texture from './03-texture'
 import Sprite from './04-sprite'
 import Tileset from './05-tileset-image'
-import Atlas from './06-tileset-atlas.vue'
+import Atlas from './06-tileset-atlas'
+import Movement from './07-movement'
 
 export default {
   name: 'GetStart',
@@ -25,7 +27,8 @@ export default {
     Texture,
     Sprite,
     Tileset,
-    Atlas
+    Atlas,
+    Movement
   },
   methods: {
     showComponents (component) {
