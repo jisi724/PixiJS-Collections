@@ -31,7 +31,8 @@ export default {
         {title: 'Sprite', url: '01-get-start/sprite'},
         {title: 'Tileset Image', url: '01-get-start/tileset'},
         {title: 'Tileset Atlas', url: '01-get-start/atlas'},
-        {title: 'Movement', url: '01-get-start/movement'}
+        {title: 'Movement', url: '01-get-start/movement'},
+        {title: 'Keyboard', url: '01-get-start/keyboard'}
       ],
       section2Links: [
         {title: 'Init2', url: 'init'},

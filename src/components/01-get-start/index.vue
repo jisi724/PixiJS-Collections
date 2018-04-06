@@ -6,7 +6,8 @@
     <Sprite v-if="showComponents('sprite')"></Sprite>
     <Tileset v-if="showComponents('tileset')"></Tileset>
     <Atlas v-if="showComponents('atlas')"></Atlas>
-    <movement v-if="showComponents('movement')"></movement>
+    <Movement v-if="showComponents('movement')"></Movement>
+    <Keyboard v-if="showComponents('keyboard')"></Keyboard>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Sprite from './04-sprite'
 import Tileset from './05-tileset-image'
 import Atlas from './06-tileset-atlas'
 import Movement from './07-movement'
+import Keyboard from './08-keyboard'
 
 export default {
   name: 'GetStart',
@@ -28,7 +30,8 @@ export default {
     Sprite,
     Tileset,
     Atlas,
-    Movement
+    Movement,
+    Keyboard
   },
   methods: {
     showComponents (component) {
