@@ -8,6 +8,7 @@
     <Atlas v-if="showComponents('atlas')"></Atlas>
     <Movement v-if="showComponents('movement')"></Movement>
     <Keyboard v-if="showComponents('keyboard')"></Keyboard>
+    <Collision v-if="showComponents('collision')"></Collision>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Tileset from './05-tileset-image'
 import Atlas from './06-tileset-atlas'
 import Movement from './07-movement'
 import Keyboard from './08-keyboard'
+import Collision from './09-collision'
 
 export default {
   name: 'GetStart',
@@ -31,7 +33,8 @@ export default {
     Tileset,
     Atlas,
     Movement,
-    Keyboard
+    Keyboard,
+    Collision
   },
   methods: {
     showComponents (component) {
