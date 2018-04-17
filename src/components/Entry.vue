@@ -8,7 +8,7 @@
         <router-link :to=link.url>{{ link.title }}</router-link>
       </li>
     </ul>
-    <h2>02. Parallax Scroller</h2>
+    <h2>02. Pixi.JS Features</h2>
     <ul>
       <li v-for="link in section2Links" :key=link.id>
         <router-link :to=link.url>{{ link.title }}</router-link>
@@ -36,8 +36,8 @@ export default {
         {title: 'Collision', url: '01-get-start/collision'}
       ],
       section2Links: [
-        {title: 'Init2', url: 'init'},
-        {title: 'Test2', url: 'test'}
+        {title: 'Mouse Follow', url: '02-pixi-features/mouse'},
+        {title: 'Test2', url: '02-pixi-features/test'}
       ]
     }
   }
