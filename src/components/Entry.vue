@@ -22,7 +22,7 @@ export default {
   name: 'Entry',
   data () {
     return {
-      title: 'Welcome to Your PixiJS Practice Project',
+      title: 'PixiJS Practice Project',
       desc: 'All practise from <a href="http://www.pixijs.com/tutorials">PixiJS Offical Tutorial</a>',
       section1Links: [
         {title: 'Init', url: '01-get-start/init'},
@@ -37,7 +37,8 @@ export default {
       ],
       section2Links: [
         {title: 'Mouse Follow', url: '02-pixi-features/mouse'},
-        {title: 'Test2', url: '02-pixi-features/test'}
+        {title: 'Particle', url: '02-pixi-features/particle'},
+        {title: 'Particle2', url: '02-pixi-features/particle2'}
       ]
     }
   }
