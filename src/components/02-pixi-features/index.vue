@@ -2,7 +2,7 @@
   <div class="practices">
     <Mouse v-if="showComponents('mouse')"></Mouse>
     <particle v-if="showComponents('particle')"></particle>
-    <ParticleTwo v-if="showComponents('particle2')"></ParticleTwo>
+    <ParticleTwo v-if="showComponents('text-practile')"></ParticleTwo>
   </div>
 </template>
 

@@ -38,7 +38,7 @@ export default {
       section2Links: [
         {title: 'Mouse Follow', url: '02-pixi-features/mouse'},
         {title: 'Particle', url: '02-pixi-features/particle'},
-        {title: 'Particle2', url: '02-pixi-features/particle2'}
+        {title: 'Text Practile', url: '02-pixi-features/text-practile'}
       ]
     }
   }
